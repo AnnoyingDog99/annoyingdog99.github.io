@@ -1,0 +1,295 @@
+/*
+Fonts
+*/
+@font-face {
+  font-family: Quick;
+  src: url("/Styling/letters/Quick.otf") format("opentype");
+}
+@font-face {
+  font-family: Pixel;
+  src: url("/Styling/letters/advance-wars-2-gba.ttf");
+}
+/*
+Layout
+*/
+html{
+  scroll-behavior: smooth;
+}
+main {
+  color: rgb(0, 0, 0);
+  align-items: center;
+}
+section {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+}
+#contactinfo{
+  position: fixed;
+  background-color: #0f101459;
+  margin: 10px;
+  top: 40vh;
+  left: 1vw;
+  border-radius: 10px;
+}
+#sec1 {
+  background-color: #0f1014;
+  color: white;
+  padding-top: 40vh;
+}
+#sec2 {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: 20vh;
+}
+#sec3{
+  background-color: rgb(34, 40, 49);
+  text-align: center;
+  padding-top: 20vh;
+}
+#sec4{
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: 20vh;
+}
+#sec5{
+  background-color: #222831;
+  color: white;
+  text-align: center;
+  padding-top: 20vh;
+}
+#sec6{
+  background: rgb(255,0,0);
+  background: linear-gradient(90deg, rgba(255,0,0,0.6054622532606793) 0%, rgba(254,255,5,0.437395026369923) 50%, rgba(8,0,255,0.38977597875087533) 100%);
+  color: #007bff;
+  text-align: center;
+  padding-top: 20vh;
+}
+#sec7 {
+  background-image: url('/Images/awbg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 20vh;
+}
+
+#sec8 {
+  background-color: #222831;
+  color: white;
+  text-align: center;
+  padding-top: 20vh;
+}
+
+
+#titletext {
+  text-align: center;
+  font-family: Quick;
+  font-size: 6vw;
+  background-image: url(/Images/green.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+#arrow{
+  margin-top: 15vh;
+}
+#top{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  padding: 10px;
+  transform: rotate(180deg);
+  background-color: rgba(0, 0, 0, 0.527);
+  border-radius: 10px;
+
+}
+#extra {
+  font-family: Quick;
+  font-size: 3vw;
+}
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: left;
+}
+#title{
+  margin-bottom: 10vw;
+  font-family: Quick;
+}
+#projects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+}
+.project{
+  margin: 0px 30px 0px 30px;
+  cursor: pointer;
+}
+#cromatitle{
+  color: white;
+  font-family: Quick;
+}
+#isalatitle{
+  color: black;
+  font-family: Quick;
+}
+#gstaintitle{
+  color: white;
+  font-family: Quick;
+}
+#roboticstitle{
+  color: white;
+  font-family: Quick;
+}
+#libratitle{
+  color: #007bff;
+  font-family: Quick;
+}
+#awtitle{
+  color: white;
+  font-family: Pixel;
+  font-size: 5em;
+  text-shadow: 4px 4px 5px black, 5px 5px 5px #48576f;
+}
+#cromasnippet{
+  border: 3px solid white;
+}
+#isalasnippet{
+  border: 3px solid black;
+}
+#gstainsnippet{
+  border: 3px solid white;
+}
+#librasnippet{
+  border: 3px solid red;
+}
+#awsnippet{
+  border: 5px solid #183139;
+}
+#cromasection{
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+}
+#isalasection{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+}
+#gstainsection{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+}
+#roboticssection{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+}
+#librasection{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+}
+#awsection{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+}
+#info{
+  width: 700px;
+  padding: 0 2% 0 2%;
+}
+#cromalink{
+  color: white;
+  border: 3px solid rgb(255, 136, 0);
+  border-radius: 100px;
+  padding: 10px 20px 10px 20px;
+  margin: 10px 30px 10px 30px;
+}
+#isalalink{
+  color: white;
+  background-color: #50535f;
+  padding: 10px 20px 10px 20px;
+}
+#roboticslink{
+  color: white;
+  border: 3px solid rgb(255, 136, 0);
+  border-radius: 100px;
+  padding: 10px 20px 10px 20px;
+  margin: 10px 30px 10px 30px;
+}
+#libralink{
+  border: 3px solid red;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+}
+#awlink{
+  color: white;
+  font-size: 2em;
+}
+#gstainlink{
+  color: white;
+  border: 3px solid white;
+  padding: 10px 20px 10px 20px;
+}
+#gstainlink:hover{
+  color: black;
+  background-color: white;
+}
+#buttons{
+  margin-top: 8vh;
+}
+
+#awsection>#info{
+  background-color: #48576f;
+  border: 5px solid #183139;
+  font-family: Pixel;
+  font-size: 1.4em;
+  text-shadow: 2px 2px 1px black;
+  margin-right: 40px;
+  align-self: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project{
+  margin-top: 10px;
+  }
+  #cromasnippet, #isalasnippet, #gstainsnippet, #librasnippet, #awsnippet{
+    width: 70vw;
+  }
+  #isalasnippet{
+    width: 70vw;
+  }
+  #sec3, #sec4, #sec5, #sec6, #sec7{
+    padding-top: 7vh !important;
+  }
+  #info{
+    width: 100%;
+    padding: 0 10% 0 10%;
+  }
+  #awsection>#info{
+    margin: 0px 10px 0px 10px;
+  }
+}
