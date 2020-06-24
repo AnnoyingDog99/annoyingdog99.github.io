@@ -276,20 +276,21 @@ section {
   .project{
   margin-top: 10px;
   }
-  #cromasnippet, #isalasnippet, #gstainsnippet, #librasnippet, #awsnippet{
+  #cromasnippet, #isalasnippet, #gstainsnippet, #librasnippet, #awsnippet, #roboticssnippet{
     width: 70vw;
+    margin: 10px;
   }
-  #isalasnippet{
-    width: 70vw;
-  }
-  #sec3, #sec4, #sec5, #sec6, #sec7{
-    padding-top: 7vh !important;
+  #sec3, #sec4, #sec5, #sec6, #sec7, #sec8{
+    padding-top: 1vh !important;
   }
   #info{
     width: 100%;
-    padding: 0 10% 0 10%;
+    padding: 0 5% 0 5%;
   }
   #awsection>#info{
     margin: 0px 10px 0px 10px;
+  }
+  #buttons{
+    margin: 20px 10px 20px 10px;
   }
 }
