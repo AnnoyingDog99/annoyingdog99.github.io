@@ -29,6 +29,7 @@ section {
   position: fixed;
   background-color: #0f101459;
   margin: 10px;
+  padding: 10px;
   top: 40vh;
   left: 1vw;
   border-radius: 10px;
